@@ -1,0 +1,16 @@
+l=input('enter the list\n[')
+s=str(input('enter element to search'))
+lst=l.split(',')
+k=0
+def g():
+    global k
+    for s in lst:
+        lst.remove(s)
+    else:
+        o+=1
+    k+=1
+    return k
+if k==g() and o==0:
+    print(g())
+elif k<g():
+    g()
